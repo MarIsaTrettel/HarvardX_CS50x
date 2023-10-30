@@ -13,7 +13,7 @@ int main(void)
     // convert the given string into a series of 8-bit binary numbers, one for each character of the string.
     // should be a \n after the last “byte” of 8 symbols as well.
 
-    *char message = get_string("Message: ");
+    char message = get_string("Message: ");
     int letter[1020] = {};
     int binary[8] = {};
     int index = 0;
